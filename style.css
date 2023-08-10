@@ -227,10 +227,10 @@ header {
     margin: 0 auto 60px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .container {
-        padding-left: calc(50% - 368px);
-        padding-right: calc(50% - 368px);
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .navigation {
@@ -246,7 +246,7 @@ header {
     }
 
     .brand_text {
-        width: 283px;
+        width: 73%;
     }
 
     .announcer {
@@ -260,9 +260,9 @@ header {
     }
 
     .products {
-        grid-template-columns: repeat(2, 360px);
+        grid-template-columns: repeat(2, 1fr);
         gap: 15px;
-        padding-bottom: 32px;
+        padding-bottom: 48px;
     }
 
     .all_products {
